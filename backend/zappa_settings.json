@@ -1,0 +1,18 @@
+{
+    "dev": {
+        "app_function": "app.app", 
+        "aws_region": "ap-northeast-2",  
+		"exclude": [
+			".venv",
+			"boto3",
+			"dateutil",
+			"batocore",
+			"s3transfer",
+			"concurrent"
+		],
+		"profile_name": "default",
+		"project_name": "backend",
+		"runtime": "python3.10",
+        "s3_bucket": "zappa-ay0924" 
+    }
+}
